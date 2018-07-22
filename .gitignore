@@ -696,3 +696,4 @@ $RECYCLE.BIN/
 
 # Thrift generated files
 gen-py
+gen-csharp
