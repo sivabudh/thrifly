@@ -11,7 +11,7 @@ namespace ThriftsharpClient
     {
       try
       {
-        TTransport transport = new TSocket("localhost", 9090);
+        TTransport transport = new TSocket("192.168.100.253", 9090);
         TProtocol protocol = new TBinaryProtocol(transport);
         Calculator.Client client = new Calculator.Client(protocol);
 

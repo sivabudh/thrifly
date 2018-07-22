@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 {
   QCoreApplication app(argc, argv);
 
-  stdcxx::shared_ptr<TTransport> socket(new TSocket("localhost", 9090));
+  stdcxx::shared_ptr<TTransport> socket(new TSocket("192.168.100.253", 9090));
   stdcxx::shared_ptr<TTransport> transport(new TBufferedTransport(socket));
   stdcxx::shared_ptr<TProtocol> protocol(new TBinaryProtocol(transport));
   CalculatorClient client(protocol);
