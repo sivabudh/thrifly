@@ -3,6 +3,9 @@ Playing around with Apache Thrift using Python, C#, and C++
 
 What's Thrift? Read the layman's explanation here: https://www.quora.com/In-simple-terms-what-is-Thrift-software-framework-and-what-does-it-do
 
+## Setting up your machine
+1. Install chocolatey package manager. Follow the instructions from here: https://chocolatey.org/docs/installation
+2. Then, do `choco install thrift`
 
 ## Build instructions for each language
 
